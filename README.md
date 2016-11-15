@@ -193,8 +193,8 @@ Check **reportsPath** property to find out more.
 Example of a sample report [here](http://extentreports.com/os/3/extent.html).
 
 ## RunTests
-In order to run tests locally on your machine clone this repo.<br /> 
-Default configuration there is in configs/config_default.yml.<br />
+In order to run tests locally on your machine clone this repo.
+Default configuration there is in configs/config_default.yml.
 In order to override default values create new file configs/config.yml by copping file configs/config_default.yml with changed properties (custom file). Alternativelly you can provide new values as a system properties.<br />
 
 Some tests (logging, user creation) requires credentials.
