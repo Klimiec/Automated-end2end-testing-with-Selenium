@@ -1,0 +1,20 @@
+# CUSTOM CONFIGURATION
+
+browser: CHROME # acceptable values: FIREFOX, CHROME
+ecommerceName: icribis # acceptable values: icribis
+env: prod # acceptable values: dev, integration, test, prod
+country: IT # acceptable values: IT
+language: it # acceptable values: it, en
+
+# Specify browser window size in format <width>x<height>, example: 800x600
+# use "maximised" value if you want browser to be maximised
+browserSize: maximised
+
+# Path to your credential file where file name is in format:
+# credentials_<country>_<environment>, example: credentials_IT_prod.yml
+credentialsPath: src/main/resources/credentials/
+
+# Path to directory where reports from tests execution are stored
+# Report files are in the format report_<environment>_<country>_<currentDate_currentTime>.html,
+# example: report_PROD_IT_10-09-2016_11:27.html
+reportsPath: target/
