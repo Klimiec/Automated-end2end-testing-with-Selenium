@@ -1,7 +1,7 @@
 # DEFAULT CONFIGURATION
 
 browser: CHROME # acceptable values: FIREFOX, CHROME
-ecommerceName: icribis # acceptable values: icribis
+ecommerceName: ecommerce # acceptable values: ecommerce
 env: prod # acceptable values: dev, integration, test, prod
 country: IT # acceptable values: IT
 language: it # acceptable values: it, en

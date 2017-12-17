@@ -3,12 +3,11 @@ package testcases.registrationtest.internal;
 
 import common.users.User;
 import common.users.UserFactory;
-import framework.actionobject.icribis.registration.UserRegistrationAttemptAction;
-import framework.assertobject.icribis.RegistrationPageAssert;
+import framework.actionobject.ecommerce.registration.UserRegistrationAttemptAction;
+import framework.assertobject.ecommerce.RegistrationPageAssert;
 import framework.sharedkernel.testcases.BaseTest;
-import framework.pageobject.icribis.HomePage;
-import framework.pageobject.icribis.RegistrationPage;
-import org.junit.Ignore;
+import framework.pageobject.ecommerce.HomePage;
+import framework.pageobject.ecommerce.RegistrationPage;
 import org.junit.Test;
 import static testcases.TestCategory.*;
 public class RegistrationAttemptTest extends BaseTest {

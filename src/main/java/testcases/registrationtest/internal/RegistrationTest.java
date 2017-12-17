@@ -5,14 +5,13 @@ import common.users.BackOfficeUser;
 import common.users.User;
 import common.users.UserFactory;
 import framework.actionobject.backoffice.UserSearchAction;
-import framework.actionobject.icribis.registration.UserRegistrationAction;
+import framework.actionobject.ecommerce.registration.UserRegistrationAction;
 import framework.assertobject.backoffice.BackOfficeUserAssert;
-import framework.assertobject.icribis.RegistrationThankYouPageAssert;
+import framework.assertobject.ecommerce.RegistrationThankYouPageAssert;
 import framework.sharedkernel.testcases.BaseTest;
 import framework.pageobject.backoffice.OpenCmsAdminPage;
-import framework.pageobject.icribis.HomePage;
-import framework.pageobject.icribis.RegistrationThankYouPage;
-import org.junit.Ignore;
+import framework.pageobject.ecommerce.HomePage;
+import framework.pageobject.ecommerce.RegistrationThankYouPage;
 import org.junit.Test;
 
 import static testcases.TestCategory.INTERNAL_REGISTRATION;

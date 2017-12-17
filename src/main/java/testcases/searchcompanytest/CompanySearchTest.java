@@ -1,13 +1,13 @@
 package testcases.searchcompanytest;
 
 
-import framework.actionobject.icribis.search.CompanySearchAction;
-import framework.assertobject.icribis.CompanyCardPageAssert;
-import framework.assertobject.icribis.CompanySearchPageAssert;
+import framework.actionobject.ecommerce.search.CompanySearchAction;
+import framework.assertobject.ecommerce.CompanyCardPageAssert;
+import framework.assertobject.ecommerce.CompanySearchPageAssert;
 import framework.sharedkernel.testcases.BaseTest;
-import framework.pageobject.icribis.CompanyCardPage;
-import framework.pageobject.icribis.CompanySearchPage;
-import framework.pageobject.icribis.HomePage;
+import framework.pageobject.ecommerce.CompanyCardPage;
+import framework.pageobject.ecommerce.CompanySearchPage;
+import framework.pageobject.ecommerce.HomePage;
 import org.junit.Test;
 
 import static testcases.TestCategory.COMPANY_SEARCH;

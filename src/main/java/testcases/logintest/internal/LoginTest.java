@@ -3,10 +3,10 @@ package testcases.logintest.internal;
 
 import common.configuration.Configuration;
 import common.users.UserCredentials;
-import framework.actionobject.icribis.login.UserLogInAction;
-import framework.assertobject.icribis.HomePageAssert;
+import framework.actionobject.ecommerce.login.UserLogInAction;
+import framework.assertobject.ecommerce.HomePageAssert;
 import framework.sharedkernel.testcases.BaseTest;
-import framework.pageobject.icribis.HomePage;
+import framework.pageobject.ecommerce.HomePage;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
